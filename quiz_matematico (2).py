@@ -1,18 +1,3 @@
-"""
-Quiz matemático - versão 2
-Feito só com Python (Tkinter, que já vem instalado).
-
-Regras:
-- 10 perguntas fixas, cada uma é um nível.
-- Cada acerto vale 50 pontos e passa para o próximo nível.
-- Cada pergunta tem 10 segundos.
-- Antes de jogar, o jogador digita o nome.
-- Errou ou o tempo acabou: a partida é salva, os pontos zeram e volta para a tela de início.
-- Ao acertar as 10, a partida termina e também é salva.
-- Cada partida vira uma linha do historico.csv (nome, pontuação e tempo de duração).
-- A tela de ranking mostra o melhor resultado de cada jogador.
-"""
-
 import csv
 import os
 import random
@@ -20,9 +5,6 @@ import time
 import tkinter as tk
 from datetime import datetime
 
-# ----------------------------------------------------------------------
-# Configurações (troque aqui)
-# ----------------------------------------------------------------------
 NOME_AUTORA = "Ana Carolina de Carvalho Xavier"
 RA_AUTORA = "RA: 6023622"
 
